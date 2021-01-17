@@ -25,7 +25,7 @@
 }
 
 .resultText {
-  height: 30px;
-  background-color: white;
-  padding: 2rem;
+  font-size: 2rem;
+  height: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

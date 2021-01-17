@@ -1,4 +1,4 @@
-import decToHex from "../functions";
+import { decToHex, hexToDec } from "../functions";
 import { useState } from "react";
 import "./Converter.css";
 
@@ -8,7 +8,9 @@ function Converter() {
   const [result, setResult] = useState("");
 
   const handleConvert = () => {
-    return convertFrom === "decimal" ? setResult(decToHex(input)) : null;
+    return convertFrom === "decimal"
+      ? setResult(decToHex(input))
+      : setResult(hexToDec(input));
   };
 
   const handleReset = () => {
@@ -45,6 +47,7 @@ function Converter() {
           id="inputNumber"
           type="textbox"
           value={input}
+          placeholder="enter a valid number"
           onChange={(e) => {
             setInput(e.target.value);
           }}
