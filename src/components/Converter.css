@@ -7,25 +7,47 @@
   margin: 0 auto;
   padding: 1rem;
   margin-top: 2rem;
+  border-radius: 2%;
 }
 
 .forms {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
-
-.inputBox {
-  width: fit-content;
+.dropdown {
+  border-style: none;
+  font-size: 15px;
+}
+label {
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: large;
+}
+.input-container {
+  margin-bottom: 1rem;
+}
+input {
+  font-size: large;
+  border-style: none;
+  padding: 0.5rem;
 }
 
 .resultText {
-  font-size: 2rem;
+  font-size: 1.5rem;
   height: 40px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+  color: white;
+  background-color: #373c47;
+  border-style: none;
+  padding: 1rem;
+  font-size: large;
 }

@@ -24,6 +24,7 @@ function Converter() {
         <div className="container">
           <label value="fromLabel">From</label>
           <select
+            className="dropdown"
             value={convertFrom}
             onChange={(e) => setConvertFrom(e.target.value)}
           >
@@ -33,7 +34,7 @@ function Converter() {
         </div>
         <div className="container">
           <label value="toLabel">To</label>
-          <select>
+          <select className="dropdown">
             {convertFrom === "decimal" ? (
               <option value="haxadecimal">HEXADECIMAL</option>
             ) : (
@@ -42,10 +43,9 @@ function Converter() {
           </select>
         </div>
       </form>
-      <div className="inputBox">
+      <div className="input-container">
         <input
-          id="inputNumber"
-          type="textbox"
+          type="text"
           value={input}
           placeholder="enter a valid number"
           onChange={(e) => {
