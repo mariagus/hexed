@@ -43,7 +43,7 @@ function Converter() {
           </select>
         </div>
       </form>
-      <div className="input-container">
+      <div className="inputContainer">
         <input
           type="text"
           value={input}
@@ -56,7 +56,9 @@ function Converter() {
       <button className="btn" onClick={() => handleConvert()}>
         CONVERT
       </button>
-      <p className="resultText">{result}</p>
+      <div className="resultContainer">
+        <p className="resultText">{result}</p>
+      </div>
       <button className="btn" onClick={() => handleReset()}>
         RESET
       </button>

@@ -1,13 +1,13 @@
 .Converter {
   background-color: rgb(167, 168, 168);
   width: 300px;
-  height: 300px;
+  height: 310px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding: 1rem;
-  margin-top: 2rem;
-  border-radius: 2%;
+  margin-top: 1rem;
+  border-radius: 1%;
 }
 
 .forms {
@@ -26,6 +26,7 @@
 .dropdown {
   border-style: none;
   font-size: 15px;
+  height: 1.5rem;
 }
 
 label {
@@ -33,27 +34,37 @@ label {
   font-size: large;
 }
 
-.input-container {
-  margin-bottom: 1rem;
+.inputContainer {
+  margin-bottom: 0.5rem;
 }
 
 input {
+  width: -webkit-fill-available;
   font-size: large;
   border-style: none;
   padding: 0.5rem;
 }
-
+.resultContainer {
+  background-color: white;
+}
 .resultText {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
   font-size: 1.5rem;
-  height: 40px;
+  height: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn {
+  margin: auto;
+  width: 100%;
   color: white;
   background-color: #373c47;
   border-style: none;
   padding: 1rem;
   font-size: large;
+}
+
+.btn:hover {
+  background-color: rgb(170, 62, 43);
 }
