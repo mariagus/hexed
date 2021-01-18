@@ -27,10 +27,11 @@
   border-style: none;
   font-size: 15px;
   height: 1.5rem;
+  width: 128px;
 }
 
 label {
-  padding: 0.5rem 0 0.5rem 0;
+  margin-bottom: 0.2rem;
   font-size: large;
 }
 
@@ -48,8 +49,9 @@ input {
   background-color: white;
 }
 .resultText {
-  display: flex;
-  flex-direction: column;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  overflow: scroll;
   font-size: 1.5rem;
   height: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
