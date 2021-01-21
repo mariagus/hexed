@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hexed/static/css/main.710123bc.chunk.css",
-    "main.js": "/hexed/static/js/main.66c5be70.chunk.js",
-    "main.js.map": "/hexed/static/js/main.66c5be70.chunk.js.map",
+    "main.js": "/hexed/static/js/main.0639a17e.chunk.js",
+    "main.js.map": "/hexed/static/js/main.0639a17e.chunk.js.map",
     "runtime-main.js": "/hexed/static/js/runtime-main.bb4710f5.js",
     "runtime-main.js.map": "/hexed/static/js/runtime-main.bb4710f5.js.map",
     "static/js/2.72f62204.chunk.js": "/hexed/static/js/2.72f62204.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bb4710f5.js",
     "static/js/2.72f62204.chunk.js",
     "static/css/main.710123bc.chunk.css",
-    "static/js/main.66c5be70.chunk.js"
+    "static/js/main.0639a17e.chunk.js"
   ]
 }
