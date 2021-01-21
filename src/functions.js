@@ -32,7 +32,7 @@ function hexToDec(num) {
     }
     return (el = el * Math.pow(16, i));
   });
-  return result.reduce((a, b) => a + b);
+  return String(result.reduce((a, b) => a + b));
 }
 
 export { decToHex, hexToDec };
